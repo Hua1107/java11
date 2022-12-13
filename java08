@@ -1,4 +1,4 @@
-interface iAaa
+ interface iAaa
  {
  public void show();
  }
@@ -10,6 +10,15 @@ interface iAaa
  public void set(int n)
  {
  num=n;
+ }
+ }
+
+17 class Cccc extends Cbbb implements iAaa
+
+ {
+ public void show()
+ {
+ System.out.println("num="+num);
  }
  }
 
